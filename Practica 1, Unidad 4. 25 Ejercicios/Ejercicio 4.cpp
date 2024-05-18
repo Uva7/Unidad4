@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	    int x,cont,z,i,tabla[100]
+	    int x,cont,z,i,tabla[100];
 	    
 	    i=0;
 	    for (x=1;x<100;x++)
@@ -13,7 +13,6 @@ int main(void)
 	  {
 	  	 tabla[i]=x;
 	  	 i++;
-	   }
 		}
 	  }
 	  

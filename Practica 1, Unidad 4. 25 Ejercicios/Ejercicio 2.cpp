@@ -3,17 +3,17 @@
 
 int main(void)
 {
-	int x,tabla[100]
+	int x,tabla[100];
 	
-	for (x=1;x<=100;x+x)
+	for (x=1;x<=100;x++)
 	{
   tabla[x]=x;
 }
 	for (x=100;x>=1;x--)
 	{
- printf("%d\n",tabla[x])
+ printf("%d\n",tabla[x]);
 	}
 	
-	system("PAUSE")
+	system("PAUSE");
 	return 0;
 }

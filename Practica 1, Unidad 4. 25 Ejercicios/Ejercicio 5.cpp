@@ -21,6 +21,6 @@ int main(void)
 	    printf("%d\n",tabla[x]);
 	 }
 	 
-	 system("PAUSE");
+	
 	 return 0;
 }

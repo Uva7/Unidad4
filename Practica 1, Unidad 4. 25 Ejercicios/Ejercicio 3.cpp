@@ -3,31 +3,33 @@
 
 int main(void)
 {
-	    int x,cont,z,i,tabla[100]
+	    int x,cont,z,i,tabla[100];
 	    
-	    i=0
-	    for (x=1;x<=100,x++)
+	    i=0;
+	    for (x=1;x<=100;x++)
 	    {
-      cont=0;
+      		cont=0;
       for (z=1;z<=x;z++)
-      {
-      	cout++;
+      { 
+         if (x%z==0)
+         {
+      	   cont++;
+	     }
 	  }
-	}
 	
-	if (cout==2 z==1 z==0)
-	{
-	tabla[i]=x;
-	i++;
-	}
-	
-}
+	  if (cont==2 || z==1 || z==0)
+	  {
+	  tabla[i]=x;
+	  i++;
+	  }
+	  
+   }
 
-    for (x=0;x<i;x++)
-    {
- printf("%d\n",tabla[x]);
-	}
+      for (x=0;x<i;x++)
+      {
+   printf("%d\n",tabla[x]);
+}
 	
-	sysrem("PAUSE");
-	return 0;
+system("PAUSE");
+return 0;
 }
